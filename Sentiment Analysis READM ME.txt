@@ -1,0 +1,24 @@
+Sentiment Analysis using NLP (Python + AI Models)
+👨‍💻 Developed by Deepak M | AI GeneralistApproaches Implemented
+
+1️⃣ VADER (Rule-Based Sentiment Analysis)
+Works without training data
+Ideal for social media text
+Handles:
+Emojis 😊
+Slang 😎
+Capitalization (e.g., GREAT!!!)
+
+2️⃣ TextBlob
+Provides:
+Polarity (Positive/Negative)
+Subjectivity (Opinion vs Fact)
+
+
+3️⃣ Transformers Pipeline (AI-Based)
+from transformers import pipeline
+
+classifier = pipeline('sentiment-analysis')
+classifier("I love using the Transformers library!")
+Uses pre-trained deep learning models
+High accuracy 🔥
